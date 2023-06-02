@@ -18,6 +18,7 @@ public class FutureTest {
             // 线程超时时间
             String result = future.get(1L , TimeUnit.SECONDS);
             System.err.println(result);
+//            Future就是主线程和子线程的通信桥梁，借助LockSupport辅助线程的切换。通过共享FutureTask对象的数据实现数据间的传输。
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
