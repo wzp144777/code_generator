@@ -39,7 +39,7 @@ public class MyBatisPlusGenerator {
     /**
      * 本次代码生成的表名
      */
-    private final static String[] tableName = {"T_DATA_LIST"};
+    private final static String[] tableName = {"T_APPLICATION_INFO"};
 
     //true时候，生成代码以modelName开头
     private final static boolean startWithModelName = true;
@@ -50,8 +50,8 @@ public class MyBatisPlusGenerator {
     // 表后缀
     private final static String suffix = "";
 
-    private final static String javaPath = "\\src\\test\\java";
-    private final static String resourcePath = "\\src\\test\\resources\\mapper\\";
+    private final static String javaPath = "\\src\\test\\generator\\java";
+    private final static String resourcePath = "\\src\\test\\generator\\resources\\mapper\\";
 
     private final static String jdbcUrl = "jdbc:sqlserver://CNDCAWCHIDBDV01:1433;databasename=HGRInfo_PRE";
     private final static String jdbcUser = "hgr_info";
@@ -59,7 +59,7 @@ public class MyBatisPlusGenerator {
 
     private final static String packageName = "cn.az";
     private final static String mapperName = "mapper";
-    private final static String muduleName = "summary";
+    private final static String muduleName = "approval";
 
 
     public static void main(String[] args) {
