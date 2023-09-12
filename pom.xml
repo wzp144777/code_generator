@@ -82,6 +82,26 @@
             <scope>compile</scope>
         </dependency>
         <!-- 代码自动生成依赖 end-->
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <!--		    <version>1.2.52</version>-->
+            <version>1.2.83</version>
+
+        </dependency>
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.7</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/technology.tabula/tabula -->
+        <dependency>
+            <groupId>technology.tabula</groupId>
+            <artifactId>tabula</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+
     </dependencies>
 
     <build>
